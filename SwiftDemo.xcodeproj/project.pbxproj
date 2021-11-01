@@ -115,6 +115,8 @@
 		DED5FEFB2719276D00EAC599 /* UIWindow+KeyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5FEFA2719276D00EAC599 /* UIWindow+KeyWindow.swift */; };
 		DED5FEFC27193DB000EAC599 /* EZAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5FEF2271917CA00EAC599 /* EZAlert.swift */; };
 		DED5FEFF27193E6100EAC599 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5FEFE27193E6100EAC599 /* UserRepository.swift */; };
+		DEE6E0E3272FF74F00CCCA63 /* Controls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE40D606270EF01000D0227D /* Controls.framework */; };
+		DEE6E0E4272FF74F00CCCA63 /* Controls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DE40D606270EF01000D0227D /* Controls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DEE8F6E8270500CB003D6F7F /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8F6E7270500CB003D6F7F /* Application.swift */; };
 		DEE8F6EB27050116003D6F7F /* AppDelegate+Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8F6EA27050116003D6F7F /* AppDelegate+Push.swift */; };
 		DEE8F6ED27050163003D6F7F /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8F6EC27050163003D6F7F /* AuthManager.swift */; };
@@ -192,6 +194,13 @@
 			remoteGlobalIDString = DE67712627162EE0006C11FA;
 			remoteInfo = Branding;
 		};
+		DEE6E0E5272FF74F00CCCA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB7A7F226FC881F002D5DE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE40D605270EF01000D0227D;
+			remoteInfo = Controls;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -213,6 +222,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				DEE6E0E4272FF74F00CCCA63 /* Controls.framework in Embed Frameworks */,
 				DE0A362B272FD0980058DB95 /* Models.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -384,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0A362A272FD0980058DB95 /* Models.framework in Frameworks */,
+				DEE6E0E3272FF74F00CCCA63 /* Controls.framework in Frameworks */,
 				B08DC512B4C398847655C618 /* Pods_Networking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -970,6 +981,7 @@
 			);
 			dependencies = (
 				DE0A362D272FD0980058DB95 /* PBXTargetDependency */,
+				DEE6E0E6272FF74F00CCCA63 /* PBXTargetDependency */,
 			);
 			name = Networking;
 			productName = Networking;
@@ -1490,6 +1502,11 @@
 			isa = PBXTargetDependency;
 			target = DE67712627162EE0006C11FA /* Branding */;
 			targetProxy = DE67712C27162EE0006C11FA /* PBXContainerItemProxy */;
+		};
+		DEE6E0E6272FF74F00CCCA63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE40D605270EF01000D0227D /* Controls */;
+			targetProxy = DEE6E0E5272FF74F00CCCA63 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
