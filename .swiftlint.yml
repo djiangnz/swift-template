@@ -7,7 +7,8 @@ disabled_rules:
   - function_body_length
   - function_parameter_count
   - unused_closure_parameter
-
+  - opening_brace
+  - let_var_whitespace
 
 opt_in_rules:
   - array_init
@@ -26,8 +27,6 @@ excluded:
   - Carthage
   - Pods
   - R.generated.swift
-
-force_cast: warning
 
 force_try:
   severity: warning
