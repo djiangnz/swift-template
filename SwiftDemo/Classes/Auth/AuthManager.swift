@@ -51,7 +51,6 @@ class AuthManager {
 
 extension AuthManager: StoreSubscriber {
     func newState(state: AuthState) {
-        print(state)
         token = state.token
     }
 }
