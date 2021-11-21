@@ -29,9 +29,9 @@ public final class NetworkClient {
 
     private init() {
 //        #if DEBUG
-//        session = Session()
+        session = Session()
 //        #else
-        session = Session(serverTrustManager: ServerTrustManager(evaluators: evaluators))
+//        session = Session(serverTrustManager: ServerTrustManager(evaluators: evaluators))
 //        #endif
     }
 

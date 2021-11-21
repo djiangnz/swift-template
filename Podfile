@@ -9,8 +9,7 @@ def dev_pods
 end
 
 def test_pods
-#  pod 'Quick'
-#  pod 'Nimble'
+  pod 'SnapshotTesting'
 end
 
 target 'SwiftDemoTests' do

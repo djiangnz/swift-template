@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Branding
 
 open class DiffableTableViewController<ViewModel, ViewState>: UITableViewController where ViewModel: AbstractTableViewModel<ViewState>, ViewState: TableViewState {
     override public init(style: UITableView.Style) {
@@ -40,6 +41,7 @@ open class DiffableTableViewController<ViewModel, ViewState>: UITableViewControl
 
     override open func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.brand.background
         applySnapshot(animatingDifferences: false)
     }
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1250"
+   LastUpgradeVersion = "1310"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,20 +17,6 @@
                BlueprintIdentifier = "DEB7A7F926FC881F002D5DE3"
                BuildableName = "SwiftDemo.app"
                BlueprintName = "SwiftDemo"
-               ReferencedContainer = "container:SwiftDemo.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE2747DB2727F83700F9A1F4"
-               BuildableName = "SwiftDemoTests.xctest"
-               BlueprintName = "SwiftDemoTests"
                ReferencedContainer = "container:SwiftDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -64,16 +50,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DEB7A7F926FC881F002D5DE3"
-            BuildableName = "SwiftDemo.app"
-            BlueprintName = "SwiftDemo"
-            ReferencedContainer = "container:SwiftDemo.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
