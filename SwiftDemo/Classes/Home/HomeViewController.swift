@@ -10,6 +10,7 @@ import ReSwift
 import UIKit
 import Networking
 import Utils
+import Debugging
 
 class HomeViewController: DiffableTableViewController<HomeViewModel, HomeViewState> {
     init(viewModel: HomeViewModel = HomeViewModel()) {
@@ -19,6 +20,7 @@ class HomeViewController: DiffableTableViewController<HomeViewModel, HomeViewSta
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        addKeyCommand(DebugMenu.open.keyCommand)
         view.backgroundColor = UIColor.brand.background
     }
 

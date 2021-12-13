@@ -21,8 +21,7 @@ public enum UserApi: URLRequestConvertible {
             path = "/users?order=desc&sort=reputation&site=stackoverflow"
         }
 
-        let url = URL(string: UserApi.baseURLString + path)!
-
+        let url = URL(string: NetworkManager.shared.baseURLString + path)!
         return URLRequest(url: url)
     }
 }

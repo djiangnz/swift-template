@@ -23,5 +23,6 @@ func homeReducer(action: Action, state: HomeState?) -> HomeState {
         state.filteredTitles = matchedTitles
     default: break
     }
+
     return state
 }

@@ -21,3 +21,10 @@ public extension Swift.Optional where Wrapped == NSAttributedString {
         return false
     }
 }
+
+public extension Swift.Optional where Wrapped: Collection {
+    var isEmptyOrNil: Bool {
+        guard let collection = self else { return true }
+        return collection.isEmpty
+    }
+}
